@@ -3,6 +3,7 @@
 //
 
 #include "Manager.h"
+#include "Student.h"
 
 void Manager::setData()
 {
@@ -12,6 +13,7 @@ void Manager::setData()
     cin.ignore();
     cout << "\nEnter golf dues: ";
     cin >> dues;
+    Student::setEducation();
 }
 
 void Manager::getData()
@@ -19,4 +21,5 @@ void Manager::getData()
     Employee::getData();
     cout <<"\n Title: " << title;
     cout <<"\n Dues: " << dues;
+    Student::setEducation();
 }

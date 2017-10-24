@@ -20,9 +20,9 @@ int main(void)
     //e1.setData();
     //e1.getData();
 
-    //Manager m1;
-    //m1.setData();
-    //m1.getData();
+    Manager m1;
+    m1.setData();
+    m1.getData();
 
     //Scientist s1;
     //s1.setData();
@@ -32,9 +32,9 @@ int main(void)
     //l1.setData();
     //l1.getData();
 
-    Foreman f1;
-    f1.setData();
-    f1.getData();
+    //Foreman f1;
+    //f1.setData();
+    //f1.getData();
     return 0;
 }
 // Function Definitions
